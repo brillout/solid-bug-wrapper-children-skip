@@ -11,6 +11,14 @@ export default function Page() {
           Interactive. <Counter />
         </li>
       </ul>
+      Head component:
+      <Head>
+        <span>Hello</span>
+      </Head>
     </>
   );
+}
+
+function Head({ children }: any) {
+  return null
 }
